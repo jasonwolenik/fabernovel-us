@@ -50,6 +50,31 @@ header ul{
   margin-top: 20px;
 }
 
+#region-selector{
+  text-align: right;
+  float: right;
+  font-size: 14px;
+  font-weight: 600;
+  color: rgb(37,37,37);
+  padding-top: 16px;
+  margin-left: 60px;
+  line-height: 11px;
+}
+#region-selector img{
+  height: 16px;
+  width: auto;
+  margin-top: -4px;
+}
+#region-selector a{
+  color: #989898;
+  font-size: 10px;
+  font-weight: 400;
+}
+#region-selector a:hover{
+  color: #53da3f;
+}
+
+
 #nav-menu{
   float:right;
   position: relative;
@@ -59,7 +84,7 @@ header ul{
 
 #nav-menu li{
   display: inline-block;
-  margin-left: 80px;
+  margin-left: 60px;
 
 }
 
