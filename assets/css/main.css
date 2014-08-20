@@ -1,0 +1,153 @@
+/* NAV */
+
+header{
+  width: 100%;
+  position: absolute;
+  z-index: 3000;
+  background: #fff;
+  top:0;
+  height: 60px;
+}
+
+header a:hover{
+  text-decoration: none;
+}
+
+
+#content{
+  margin-top: 60px;
+}
+
+header ul{
+  list-style-type: none;
+  padding:0; 
+}
+
+.main-nav{
+  height: 60px;
+}
+
+#nav-menu li a{
+  color: rgb(37,37,37);
+  font-size: 14px;
+  text-transform: uppercase;
+}
+
+.logo{
+  padding-top: 16px;
+  float: left;
+  display: block;
+  position: relative;
+  padding-bottom: 18px;
+  color: #989898;
+}
+
+.logo li > ul {
+  position: absolute;
+  visibility: hidden;
+  width:285px;
+  display: block;
+  margin-top: 20px;
+}
+
+#nav-menu{
+  float:right;
+  position: relative;
+  overflow: hidden;
+  padding-top: 20px;
+}
+
+#nav-menu li{
+  display: inline-block;
+  margin-left: 80px;
+
+}
+
+#nav-menu li > ul{
+  position: absolute;
+  padding-top: 20px;
+  visibility: hidden;
+  height: 0px;
+  width: auto;
+}
+
+#nav-menu ul li{
+  float:none;
+  position: relative;
+  margin-left: 0;
+  display: block;
+  white-space: nowrap;
+}
+#nav-menu ul li a{
+  text-transform: none;
+  color:#989898;
+}
+
+#nav-menu li a.notree:hover{
+  color:#53da3f;
+}
+
+#nav-menu ul li a:hover{
+  color:#53da3f;
+}
+
+
+.hover-menu{   
+   position: relative;
+   background: #fff;
+   width: 100%;  
+   margin-top: 0px;
+   visibility: hidden;
+   height: 0px;
+  
+}
+
+
+
+/* Hover nav*/
+
+header:hover #nav-menu{
+  overflow: visible;
+}
+
+header:hover #nav-menu li > ul{
+  height: 95px;
+  display: block;
+  visibility: visible;
+  z-index: 999;
+}
+
+header:hover .logo li > ul {
+  visibility: visible;
+  z-index: 999;
+}
+
+header:hover #nav-menu li ul li > ul{
+  display: none;
+  z-index: 999;
+}
+
+header:hover .hover-menu{
+  height: 140px;
+  visibility: visible;
+  z-index: 240;
+}
+
+header:hover #nav-menu a{
+  color: #989898;
+}
+
+#nav-menu li:hover a{
+  color:rgb(37,37,37);
+}
+
+#nav-menu li:hover a.nav-menu-title{
+  font-weight: 600;
+}
+
+#nav-menu li:hover a.nav-menu-title.bold-adjust-1{
+  margin-left: -1px;
+}
+#nav-menu li:hover a.nav-menu-title.bold-adjust-2{
+  margin: 0 -1px;
+}
