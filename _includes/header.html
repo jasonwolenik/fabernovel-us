@@ -4,12 +4,12 @@
     <ul class="logo">
       <li>
         <a href="{{ site.baseurl }}/"><img src="{{ site.baseurl }}/img/logo_fabernovel.png"></a>
-        <ul>
+        <ul class="visible-md-block visible-lg-block">
           <li><span style="color:#53da3f;">//</span> Together, we craft the future of your Our company industry at startup speed.</li>
         </ul>
       </li>
     </ul>
-    <div class="nav-menu-container">
+    <div class="nav-menu-container visible-md-block visible-lg-block">
       <ul id="nav-menu">
         <li class="nav-menu-item">
           <a class="nav-menu-title">About Us</a>
@@ -46,14 +46,62 @@
         </li>
       </ul>
     </div>
+
+    <button id="toggle-stacked-menu" type="button" class="navbar-toggle visible-sm-block visible-xs-block" data-toggle="collapse" data-target="#stacked-menu">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+
   </nav>
 
-  <div class="hover-menu"></div>
 
-  <a href="#" id="toggle-stacked-menu"></a>
+  <!-- <a href="#" id="toggle-stacked-menu" class="visible-sm-block visible-xs-block"></a> -->
 
-  <div class="stacked-menu">
+  <div class="hover-menu visible-md-block visible-lg-block"></div>
+
+  <div id="stacked-menu" style="display: none;">
     
+      <div class="row"></div>
+      <div class="row">
+        <div class="col-xs-6 menu-section left-menu">
+          <a class="stacked-menu-title">About Us</a>
+          <ul>
+            <li><a href="{{ site.baseurl }}/about/company/">Our company</a></li>
+            <li><a href="{{ site.baseurl }}/about/history/">History</a></li>
+            <li><a href="{{ site.baseurl }}/about/team/">Team</a></li>
+            <li><a href="{{ site.baseurl }}/about/key-figures/">Key figures</a></li>
+            <li><a href="{{ site.baseurl }}/about/careers/">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 menu-section">
+          <a class="stacked-menu-title">Consulting Services</a>
+          <ul>
+            <li><a href="{{ site.baseurl }}/consulting-services/finding-growth/">Finding Growth</a></li>
+            <li><a href="{{ site.baseurl }}/consulting-services/defending-turf/">Defending Turf</a></li>
+            <li><a href="{{ site.baseurl }}/consulting-services/innovating-function/">Innovating Function</a></li>
+            <li><a href="{{ site.baseurl }}/consulting-services/cultivating-innovation/">Cultivating Innovation</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-xs-6 menu-section left-menu">
+        <a class="stacked-menu-title">Industries</a>
+          <ul>
+            <li><a href="{{ site.baseurl }}/industries/automotive/">Automotive</a></li>
+            <li><a href="{{ site.baseurl }}/industries/retail/">Retail</a></li>
+            <li><a href="{{ site.baseurl }}/industries/financial-services/">Financial Services</a></li>
+            <li><a href="{{ site.baseurl }}/industries/healthcare/">Healthcare</a></li>
+            <li><a href="{{ site.baseurl }}/industries/technology/">Technology</a></li>
+            <li><a href="{{ site.baseurl }}/industries/public-sector/">Public Sector</a></li>
+          </ul>
+        </div>
+        <div class="col-xs-6 menu-section">
+          <a class="stacked-menu-title notree"href="{{ site.baseurl }}/insights/">Insights</a>
+        </div>
+      </div>
+      
   </div>
 
 </header>

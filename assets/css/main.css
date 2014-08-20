@@ -103,7 +103,6 @@ header ul{
 }
 
 
-
 /* Hover nav*/
 
 header:hover #nav-menu{
@@ -151,3 +150,82 @@ header:hover #nav-menu a{
 #nav-menu li:hover a.nav-menu-title.bold-adjust-2{
   margin: 0 -1px;
 }
+
+/* Responsive menu */
+
+
+
+.navbar-toggle{
+  border-color: #989898;
+  margin-top: 13px;
+  margin-right: 0px;
+}
+
+.navbar-toggle .icon-bar{
+  background-color: rgb(37,37,37);
+}
+
+.navbar-toggle:hover{
+  background-color: #53da3f;
+  border-color: #53da3f;
+}
+
+.navbar-toggle:hover > .icon-bar, .navbar-toggle:focus > .icon-bar {
+  background-color: white;
+}
+
+.navbar-toggle:focus{
+  background-color: #53da3f;
+  border-color: #53da3f;
+}
+
+
+
+#stacked-menu{
+  background-color: white;
+  position: relative;
+  width: 100%;
+  margin-top: 0;
+}
+
+#stacked-menu .row{
+  border-bottom:1px solid #989898;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+#stacked-menu .row div{
+  min-height: 150px;
+}
+
+#stacked-menu .row .left-menu{
+  border-right:1px solid #989898;
+}
+
+#stacked-menu a{
+  color:rgb(37,37,37);
+}
+#stacked-menu a:hover{
+  color:#53da3f;
+}
+
+#stacked-menu a.stacked-menu-title{
+  color:rgb(37,37,37);
+  font-weight: 600;
+}
+
+#stacked-menu .menu-section{
+  padding:10px 15px;
+}
+
+#stacked-menu ul{
+  margin-top: 10px;
+  font-size: 12px;
+}
+#stacked-menu ul li{
+  margin-bottom: 5px;
+}
+
+
+
+
