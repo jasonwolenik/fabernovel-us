@@ -1,0 +1,90 @@
+---
+layout: default
+---
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>{{ page.title }}</h1>
+  </div>
+</div>
+
+
+<div class="container">
+	
+	<div class="row">
+		<div class="col-md-9">
+			{{ content }}
+		</div>
+		<div class="col-md-3">
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Contact</h2>
+					<div class="row">
+						<div class="col-xs-5">
+							<img src="http://placehold.it/300x300" style="width:100%;height:auto;">
+						</div>
+						<div class="col-xs-7">
+							<p class="contact-info">Jason Wolenik<br />Managing Director</p>
+							<p class="email-info"><span class="glyphicon glyphicon-envelope"></span> <a href="{{ site.baseurl }}/contact/">Contact Jason</a></p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h2>We also help our client with...</h2>
+				</div>
+			</div>
+			{% unless page.slug == "finding-growth" %}
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						<h4>Finding Growth</h4>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor feugiat odio quis sollicitudin. In blandit pellentesque libero porta vulputate.
+					</p>
+					<p><a href="#">Learn more</a></p>
+				</div>
+			</div>
+			{% endunless %}
+			{% unless page.slug == "defending-turf" %}
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						<h4>Defending Turf</h4>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor feugiat odio quis sollicitudin. In blandit pellentesque libero porta vulputate.
+					</p>
+					<p><a href="#">Learn more</a></p>
+				</div>
+			</div>
+			{% endunless %}
+			{% unless page.slug == "innovating-function" %}
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						<h4>Innovating function</h4>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor feugiat odio quis sollicitudin. In blandit pellentesque libero porta vulputate.
+					</p>
+					<p><a href="#">Learn more</a></p>
+				</div>
+			</div>
+			{% endunless %}
+			{% unless page.slug == "innovation-culture" %}
+			<div class="row">
+				<div class="col-md-12">
+					<p>
+						<h4>Cultivating Innovation</h4>
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Curabitur auctor feugiat odio quis sollicitudin. In blandit pellentesque libero porta vulputate.
+					</p>
+					<p><a href="#">Learn more</a></p>
+				</div>
+			</div>
+			{% endunless %}
+
+		</div>
+	</div>
+
+
+
+
+</div>

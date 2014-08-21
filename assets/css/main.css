@@ -45,7 +45,7 @@ header ul{
 .logo li > ul {
   position: absolute;
   visibility: hidden;
-  width:285px;
+  width:130%;
   display: block;
   margin-top: 20px;
 }
@@ -58,6 +58,7 @@ header ul{
   color: rgb(37,37,37);
   padding-top: 16px;
   margin-left: 60px;
+  margin-right: -20px;
   line-height: 11px;
 }
 #region-selector img{
