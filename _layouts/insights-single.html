@@ -1,0 +1,64 @@
+---
+layout: default
+---
+
+<div class="jumbotron">
+  <div class="container">
+    <h1>Insights</h1>
+    <p><a href="{{ site.baseurl }}/insights/">View all</a></p>
+  </div>
+</div>
+
+
+<div class="container">
+	
+	<div class="row">
+		<div class="col-md-9">
+			<article>
+				<p class="post-type"><span style="color:#53da3f;">//</span> {{ page.tags.last }}</p>
+				<h2>{{ page.title }}</h2>
+				<p class="excerpt">{{ page.excerpt }}</p>
+				<p><span class="date">{{ page.date | date: "%B %Y" }}</span> <span style="color:#53da3f;">//</span> <span class="author">by {{ page.author }}</span></p>
+				{{ content }}
+			</article>
+		</div>
+		<div class="col-md-3">
+			<div class="row">
+				<div class="col-md-12">
+					A blurb about where those insights come from, what we want to do with them etc, consectetur adipiscing elit. Nam porttitor augue a sem tristique, id interdum lectus faucibus. Nulla et convallis lectus. Proin porta enim id tempus malesuada. Sed id odio nec odio dapibus vulputate. Quisque dapibus lacus vehicula, pellentesque nisi eget, varius est. Nullam nibh nunc, mollis id laoreet id, porttitor sed tortor. Praesent sed tellus risus.					
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Our latest White Paper</h2>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<p><center><img src="http://www.fabernovel.com/wp-content/uploads/2014/05/visuels_reals_Code.jpg" style="width:80%;height:auto;"></center></p>
+					<p>From an expert’s language to an accessible language for everyone, code is becoming a “super power”, able to unlock creativity, disrupt industries and transform our society.</p>
+					<p><a href="#">More</a></p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Social Media</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+				<a class="twitter-timeline" href="https://twitter.com/FABERNOVEL_US" data-widget-id="502573683949309952">Tweets by @FABERNOVEL_US</a>
+				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+				</div>
+			</div>	
+			
+		</div>
+	</div>
+
+
+
+
+</div>
