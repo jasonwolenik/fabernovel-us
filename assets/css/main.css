@@ -333,7 +333,167 @@ footer .footer-menu-stacked li a:hover{
   text-decoration: none;
 }
 
+/* Social plugins */
+footer .share-title{
+  padding-left: 10px;
+  margin-top: 30px;
+  margin-bottom: 10px;
+  font-size: 12px;
+  color: rgb(37,37,37);
+  text-transform: uppercase;
+}
+
+footer .page-social-links{
+  list-style-type: none;
+  padding: 0;
+  padding-left: 10px;
+}
+
+footer .page-social-links li{
+  margin-top: 8px;
+}
+
+article .social-nav{
+  margin-top: 20px;
+  list-style-type: none;
+  padding: 0;
+  float: right;
+}
+article .fb-like{
+  margin-top: -20px;
+  position: absolute;
+}
+
+article .social-nav li{
+  display: inline-block;
+  margin-right: 10px;
+  width: 90px;
+}
+
+/* Home */
+.highlights-vertical-box img{
+  width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+.highlights-vertical-box .post-title{
+  text-transform: uppercase;
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+.highlights-vertical-box .post-excerpt{
+  font-size: 12px;
+}
+
+
+/* INSIGHTS SECTION */
+
+article .post-excerpt{
+  font-size: 12px;
+  color: #989898;
+}
+
+article .date{
+  font-size: 12px;
+  font-weight: 600;
+}
+
+article .post-type{
+  color:#989898;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+
+article img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  max-width: 100%;
+}
+
+/* SIDE BAR */
+
+.insights-sidebar .white-paper-img{
+  width:100%;
+  height:auto;
+  margin-bottom: 10px;
+}
+
+.insights-sidebar .white-paper-title{
+  font-size: 18px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+}
+
+.insights-sidebar .white-paper-excerpt{
+  font-size: 12px;
+}
+
+/* Index view */
+
+article.article-list{
+  margin-bottom: 30px;
+}
+
+article .article-thumbnail{
+  max-height: 180px;
+  overflow: hidden;
+}
+
+article .article-thumbnail img{
+  margin-top: 20px;
+  height:auto;
+  width: 100%;
+  position: relative;
+}
+
+.article-list h3{
+  font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.article-list h3 small{
+  color:#989898;
+  font-size: 12px;
+  text-transform: none;
+}
 
 
 
+.article-list .post-excerpt{
+  color: rgb(37,37,37);
+}
 
+article .post-link{
+  color:#53da3f;
+  font-size: 12px;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+article .post-link a{
+  color:rgb(37,37,37);
+}
+
+/* Single view */
+
+article h2{
+  font-size: 35px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+
+article .post-author{
+  font-size: 12px;
+  color:#989898;
+}
+
+article .dateline{
+  margin-top: 20px;
+  margin-bottom: 50px;
+}

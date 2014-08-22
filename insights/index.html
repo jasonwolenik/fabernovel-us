@@ -6,16 +6,16 @@ permalink: /insights/
 ---
 
 {% for post in site.categories.insights %}
-	<article>
+	<article class="article-list">
 		<div class="row">
-			<div class="col-md-3">
-				<img src="{{ site.baseurl }}/{{post.img}}" style="width:100%;height:auto;">
+			<div class="col-md-3 article-thumbnail">
+				<img src="{{ site.baseurl }}/{{post.img}}">
 			</div>
-			<div class="col-md-9 article-list">
+			<div class="col-md-9">
 				<h3><a href="{{ post.url }}">{{ post.title }}</a> <small>by {{ post.author }}</small></h3>
-				<p><span class="date">{{ post.date | date: "%B %Y" }}</span> <span style="color:#53da3f;">//</span> <span class="post-type">{{ post.tags.last }}</span>	</p>
-				<p>{{ post.excerpt }}</p>
-				<p><a href="{{ post.url }}">Read more ></a></p>
+				<p><span class="date">{{ post.date | date: "%B %Y" }}</span> <span style="color:#53da3f; font-size:12px;">//</span> <span class="post-type">{{ post.tags.last }}</span>	</p>
+				<p class="post-excerpt">{{ post.excerpt }}</p>
+				<p class="post-link"><a href="{{ post.url }}">Read more</a> ></p>
 			</div>
 		</div>
 	</article>
