@@ -9,13 +9,13 @@ permalink: /insights/
 	<article class="article-list">
 		<div class="row">
 			<div class="col-md-3 article-thumbnail">
-				<img src="{{ site.baseurl }}/{{post.img}}">
+				<a href="{{ site.baseurl }}/{{ post.url }}"><img src="{{ site.baseurl }}/{{post.img}}"></a>
 			</div>
 			<div class="col-md-9">
-				<h3><a href="{{ post.url }}">{{ post.title }}</a> <small>by {{ post.author }}</small></h3>
+				<h3><a href="{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a> <small>by {{ post.author }}</small></h3>
 				<p><span class="date">{{ post.date | date: "%B %Y" }}</span> <span style="color:#53da3f; font-size:12px;">//</span> <span class="post-type">{{ post.tags.last }}</span>	</p>
 				<p class="post-excerpt">{{ post.excerpt }}</p>
-				<p class="post-link"><a href="{{ post.url }}">Read more</a> ></p>
+				<p class="post-link"><a href="{{ site.baseurl }}/{{ post.url }}">Read more</a> ></p>
 			</div>
 		</div>
 	</article>
