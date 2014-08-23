@@ -33,7 +33,7 @@ layout: default
 					{% for post in site.categories.insights %}
 						{% for tag in post.tags %}
 							{% if tag == "White Paper" %}
-								<center><a href="{{ post.url }}"><img src="{{ site.baseurl }}{{ post.img }}" class="white-paper-img"></a></center>
+								<center><a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.img }}" class="white-paper-img"></a></center>
 								<p class="white-paper-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
 								<p class="white-paper-excerpt">{{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}">More</a></p>
 								{% break %}
