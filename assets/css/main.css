@@ -347,7 +347,7 @@ header:hover #nav-menu a{
 }
 
 .homepage-banner{
-  background: url("/img/homepage-banner.png") no-repeat left bottom;
+  background: url("../../img/homepage-banner.png") no-repeat left bottom;
   background-size: cover;
 }
 
