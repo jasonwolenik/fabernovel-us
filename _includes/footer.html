@@ -1,41 +1,34 @@
 <footer class="site-footer">
   <div class="container">
-  	<div class="row visible-xs-block visible-sm-block">
-  		<div class="col-sm-12">
-  			<ul class="footer-menu-stacked">
-  			<li><a href="{{ site.baseurl }}/sitemap/">Sitemap</a></li>
-            <li><a href="{{ site.baseurl }}/privacy-policy/">Privacy Policy</a></li>
-            <li><a href="{{ site.baseurl }}/contact-us/">Contact Us</a></li>
-  			</ul>
-  		</div>
-  	</div>
-    <div class="row">
-      <div class="col-md-3 visible-md-block visible-lg-block">
+    <div class="row first-row border-row">
+      <div class="col-md-4">
         <p class="footnotes">&copy; 2014 FABERNOVEL, Inc. All Rights Reserved</p>
+      </div>
+      <div class="col-md-4">
+        <center><a href="{{ site.baseurl }}/contact-us/" class="action-button">Contact us</a></center>
+      </div>
+      <div class="col-md-4">
+        <ul class="footer-social-links"><li><a href="https://twitter.com/fabernovel_us"><i class="fa fa-twitter fa-2x"></i></a></li><li><a href="https://www.linkedin.com/company/fabernovel-us"><i class="fa fa-linkedin fa-2x"></i></a></li><li><a href="http://www.slideshare.net/fabernovel"><i class="fa fa-slideshare fa-2x"></i></a></li></ul><p class="follow-us">FOLLOW US:</p>
+      </div>
+    </div>
+    <div class="row second-row">
+      <div class="col-md-6 visible-md-block visible-lg-block">
         <p class="share-title">share this page:</p>
         <ul class="page-social-links">
-          <li><script type="IN/Share" data-counter="right"></script></li>
-          <li><a href="https://twitter.com/share" class="twitter-share-button" data-text="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" data-via="FABERNOVEL_US" data-related="FABERNOVEL_US">Tweet</a></li>
-          <li><div class="fb-like" data-href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></li>
-          <li><div class="g-plusone" data-size="medium" data-annotation="inline" data-width="120"></div></li>
+          <li style="width:61px;"><script type="IN/Share" data-counter="none"></script></li>
+          <li style="width:85px;overlflow:hidden;"><a href="https://twitter.com/share" class="twitter-share-button" data-text="{% if page.title %}{{ page.title }} - {{ site.title }}{% else %}{{ site.title }}{% endif %}" data-via="FABERNOVEL_US" data-related="FABERNOVEL_US">Tweet</a></li>  
+          <li><div class="fb-like" data-href="{{ site.url }}{{ site.baseurl }}{{ page.url }}" data-layout="button_count" data-action="like" data-show-faces="true" data-share="true"></div></li>             
+          <li style="width:65px; margin-left:25px;"><div class="g-plusone" data-size="medium" data-annotation="inline" data-width="120"></div></li>
           
         </ul>
       </div>
-      <div class="col-md-7 visible-md-block visible-lg-block">
-      	<ul class="footer-menu">
-      		<li><a href="{{ site.baseurl }}/sitemap/">Sitemap</a></li>
-            <li><a href="{{ site.baseurl }}/privacy-policy/">Privacy Policy</a></li>
-            <li><a href="{{ site.baseurl }}/contact-us/">Contact Us</a></li>
-      	</ul>
-      </div>
-      <div class="col-md-2 col-sm-12">
-      	<center>FOLLOW US: <ul class="footer-social-links"><li><a href="https://twitter.com/fabernovel_us"><i class="fa fa-twitter fa-2x"></i></a></li><li><a href="https://www.linkedin.com/company/fabernovel-us"><i class="fa fa-linkedin fa-2x"></i></a></li></ul></center>
+      <div class="col-md-6">
+        <ul class="footer-menu visible-md-inline-block visible-lg-inline-block">
+          <li><a href="{{ site.baseurl }}/sitemap/">Sitemap</a></li>
+          <li><a href="{{ site.baseurl }}/privacy-policy/">Privacy Policy</a></li>
+        </ul>
+        <p class="fabernovel-group">FABERNOVEL, Inc. is part of <img src="/img/logo_fabernovel_group.png" width="130"></p>
       </div>
     </div>
-    <div class="row visible-xs-block visible-sm-block">
-  		<div class="col-sm-12">
-  			<center><p class="footnotes">&copy; 2014 FABERNOVEL, Inc. All Rights Reserved</p></center>
-  		</div>
-	</div>
   </div>
 </footer>

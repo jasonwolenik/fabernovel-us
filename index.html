@@ -2,52 +2,52 @@
 layout: default
 ---
 
-<div class="jumbotron">
+<div class="jumbotron homepage-banner">
   <div class="container">
     <h1>We help our clients find growth.</h1>
-    <p>Our experts have a track record of launching high growth projects across several industries. <a href="{{ site.baseurl }}/about/company/">Learn more ></a></p>
-    <p><a href="#" id="hero-call-to-action" class="btn btn-primary btn-lg hidden-xs">What challenge can we help you solve?</a><a href="{{ site.baseurl }}/contact-us/" class="btn btn-primary btn-lg visible-xs-block">Contact us</a></p>
+    <p>Our experts have a track record of launching high growth projects across several industries. <a href="{{ site.baseurl }}/about/company/" class="plus-button">+</a></p>
+    <p><a href="#" id="hero-call-to-action" class="action-button hidden-xs">What challenge can we help you solve?</a><a href="{{ site.baseurl }}/contact-us/" class="action-button visible-xs-block">Contact us</a></p>
   </div>
 </div>
 
 <div class="container">
   
-  <div class="row">
-    <div class="col-md-6">
-      <h4>Insights from the front line of innovation fuel our work.</h4>
+  <div class="row border-row">
+    <div class="col-md-6 padding-top-20">
+      <h2>Insights from the front line of innovation fuel our work.</h2>
       <div class="row">
         <div class="col-md-5">
           <img src="http://placehold.it/180x130" style="width:100%;height:auto;">
         </div>
         <div class="col-md-7">
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas id auctor metus. Duis tellus quam, eleifend quis libero at, sagittis tempus lectus. Mauris pharetra justo ac velit placerat cursus. Aliquam iaculis est ut libero tincidunt rhoncus.</p>
-          <p><a href="{{ site.baseurl }}/about/company/">Learn more about us ></a></p>
+          <p><a href="{{ site.baseurl }}/about/company/" class="link-more">Learn more about us</a></p>
         </div>
       </div>
     </div>
-    <div class="col-md-3 highlights-vertical-box">
-      <h4>Highlighted Case Study</h4>
+    <div class="col-md-3 highlights-vertical-box padding-top-20">
+      <h3>Highlighted Case Study</h3>
       {% for post in site.categories.insights %}
           {% for tag in post.tags %}
               {% if tag == "White Paper" %}
                 <center><a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.img }}" style="width:100%;height:auto;"></a></center>
                 <p class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
                 <p class="post-excerpt">{{ post.excerpt }}</p>
-                <p><a href="{{ site.baseurl }}{{ post.url }}">Learn how ></a></p>
+                <p><a href="{{ site.baseurl }}{{ post.url }}" class="link-more">Learn how</a></p>
                 {% break %}
               {% endif %}
             {% endfor %}
       {% endfor %}
     </div>
-    <div class="col-md-3 highlights-vertical-box">
-      <h4>Our latest White Paper</h4>
+    <div class="col-md-3 highlights-vertical-box padding-top-20">
+      <h3>Our latest White Paper</h3>
       {% for post in site.categories.insights %}
             {% for tag in post.tags %}
               {% if tag == "White Paper" %}
                 <center><a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.img }}" style="width:100%;height:auto;"></a></center>
                 <p class="post-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
                 <p class="post-excerpt">{{ post.excerpt }}</p>
-                <p><a href="{{ site.baseurl }}{{ post.url }}">Read more ></a></p>
+                <p><a href="{{ site.baseurl }}{{ post.url }}" class="link-more">Read more</a></p>
                 {% break %}
               {% endif %}
             {% endfor %}
