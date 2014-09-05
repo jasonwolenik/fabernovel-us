@@ -11,13 +11,13 @@ layout: default
 
 <div class="container">
 	
-	<div class="row">
-		<div class="col-md-9">
+	<div class="row border-row">
+		<div class="col-md-9 padding-top-20">
 			{{ content }}
 		</div>
-		<div class="col-md-3 sidebar insights-sidebar">
-			<div class="row">
-				<div class="col-md-12">
+		<div class="col-md-3 sidebar insights-sidebar padding-top-40">
+			<div class="row fabernovel-border-bottom">
+				<div class="col-md-12 padding-bottom-40">
 					A blurb about where those insights come from, what we want to do with them etc, consectetur adipiscing elit. Nam porttitor augue a sem tristique, id interdum lectus faucibus. Nulla et convallis lectus. Proin porta enim id tempus malesuada. Sed id odio nec odio dapibus vulputate. Quisque dapibus lacus vehicula, pellentesque nisi eget, varius est. Nullam nibh nunc, mollis id laoreet id, porttitor sed tortor. Praesent sed tellus risus.					
 				</div>
 			</div>
@@ -28,14 +28,15 @@ layout: default
 				</div>
 			</div>
 
-			<div class="row">
+			<div class="row fabernovel-border-bottom padding-bottom-40">
 				<div class="col-md-12">
 					{% for post in site.categories.insights %}
 						{% for tag in post.tags %}
 							{% if tag == "White Paper" %}
 								<center><a href="{{ post.url }}"><img src="{{ site.baseurl }}/{{ post.img }}" class="white-paper-img"></a></center>
 								<p class="white-paper-title"><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-								<p class="white-paper-excerpt">{{ post.excerpt }} <a href="{{ site.baseurl }}{{ post.url }}">More</a></p>
+								<p class="white-paper-excerpt">{{ post.excerpt }}</p>
+								<a href="{{ site.baseurl }}{{ post.url }}" class="link-more">Learn More</a>
 								{% break %}
 							{% endif %}
 						{% endfor %}
@@ -48,7 +49,7 @@ layout: default
 					<h2>Social Media</h2>
 				</div>
 			</div>
-			<div class="row">
+			<div class="row padding-bottom-40">
 				<div class="col-md-12">
 				<a class="twitter-timeline" href="https://twitter.com/FABERNOVEL_US" data-widget-id="502573683949309952">Tweets by @FABERNOVEL_US</a>
 				<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>

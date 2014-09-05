@@ -7,15 +7,15 @@ permalink: /insights/
 
 {% for post in site.categories.insights %}
 	<article class="article-list">
-		<div class="row">
-			<div class="col-md-3 article-thumbnail">
+		<div class="row fabernovel-border-bottom">
+			<div class="col-md-5 article-thumbnail">
 				<a href="{{ site.baseurl }}{{ post.url }}"><img src="{{ site.baseurl }}/{{post.img}}"></a>
 			</div>
-			<div class="col-md-9">
-				<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a> <small>by {{ post.author }}</small></h3>
+			<div class="col-md-7">
+				<h3><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a><br /><small>by {{ post.author }}</small></h3>
 				<p><span class="date">{{ post.date | date: "%B %Y" }}</span> <span style="color:#53da3f; font-size:12px;">//</span> <span class="post-type">{{ post.tags.last }}</span>	</p>
 				<p class="post-excerpt">{{ post.excerpt }}</p>
-				<p class="post-link"><a href="{{ site.baseurl }}{{ post.url }}">Read more</a> ></p>
+				<a href="{{ site.baseurl }}{{ post.url }}" class="link-more">Read more</a>
 			</div>
 		</div>
 	</article>
