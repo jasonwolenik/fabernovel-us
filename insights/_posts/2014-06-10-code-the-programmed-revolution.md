@@ -4,7 +4,7 @@ title: "#Code: The Programmed Revolution"
 author: "Cyril Vart"
 category: insights
 tags:
-- innovating-function
+- evolve-operating-model
 - "White Paper"
 img: "img/articles/code-revolution.jpg"
 published: true

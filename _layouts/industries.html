@@ -5,6 +5,7 @@ layout: default
 <div class="jumbotron">
   <div class="container">
     <h1>{{ page.title }}</h1>
+    <p class="dark-bg">{{ page.tagline }}</p>
   </div>
 </div>
 
@@ -15,7 +16,7 @@ layout: default
 		<div class="col-md-9 padding-top-40">
 			{{ content }}
 		</div>
-		<div class="col-md-3 sidebar padding-top-40">
+		<div class="col-md-3 sidebar padding-top-40" style="min-height:400px;">
 			<div class="row">
 				<div class="col-md-12">
 					<img src="{{ site.baseurl }}/img/JasonWolenik_circle.png" class="contact-img">
@@ -24,7 +25,7 @@ layout: default
 					<p><a href="{{ site.baseurl }}/contact/" class="contact-button">Contact Jason</a></p>
 				</div>
 			</div>
-
+			{% if page.clients %}
 			<div class="row">
 				<div class="col-md-12">
 					<h2>We work with</h2>
@@ -41,6 +42,7 @@ layout: default
 
 				</div>
 			</div>
+			{% endif %}
 		</div>	
 	</div>
 

@@ -14,7 +14,7 @@ title: "A Road Worth Travelling: The Connected Car Is An Innovation Catalyst"
 author: "Jason Wolenik"
 category: insights
 tags:
-- automotive
+- transportation
 - defending-turf
 - article
 img: "img/articles/apidays-notasmartphone.jpg"
@@ -26,4 +26,4 @@ excerpt: "Don’t worry about the size of your engine; the value of your car wil
 
 
 
-## Technology
+## High-Tech

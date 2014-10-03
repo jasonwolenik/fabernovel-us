@@ -350,12 +350,17 @@ header:hover #nav-menu a{
   font-weight: 300;
   text-transform: uppercase;
   color:white;
+  text-shadow: 0px 0px 20px black;
 
 }
 
 .jumbotron p{
   color:white;
   margin-top: 20px;
+}
+
+.jumbotron p.dark-bg{
+  text-shadow: 0px 0px 20px black;
 }
 
 .homepage-banner{
@@ -428,7 +433,7 @@ footer .footer-social-links{
   list-style-type: none;
   padding: 0;
   float: right;
-  padding-top: 15px;
+  padding-top: 18px;
 }
 
 
