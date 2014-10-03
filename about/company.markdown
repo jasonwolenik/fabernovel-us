@@ -8,7 +8,7 @@ permalink: /about/company/
 
 **We craft the future of your industries. At startup speed.**
 
-The innovation agency FABERNOVEL combines **technology, design and emerging trends** to invent new products, services and experiences. 
+FABERNOVEL combines **technology, design and emerging trends** to invent new products, services and experiences. 
 
 We help world leading companies to **build growth at startup speed**. 
 Every day we bring entrepreneurs and large company experts together every day to launch breakthrough customer experiences. 
