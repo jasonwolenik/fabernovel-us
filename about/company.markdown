@@ -6,7 +6,7 @@ permalink: /about/company/
 
 ##Our mission
 
-**We craft the future of your industries. At startup speed.**
+**Jason rules!! We craft the future of your industries. At startup speed.**
 
 The innovation agency FABERNOVEL combines **technology, design and emerging trends** to invent new products, services and experiences. 
 
